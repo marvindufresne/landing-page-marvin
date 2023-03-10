@@ -1,0 +1,391 @@
+body{
+background-color: black;
+font-family: 'Overpass', 'Golos', 'Roboto';
+color: white;
+}
+
+h1{
+font-size: 70px;
+color: black; 
+font-family: 'Overpass', 'Golos', 'Roboto';
+font-weight: 900;
+background-color: pink;
+width: 80%;
+opacity: 0.90;
+text-align: center;
+margin: 10px auto;
+}
+
+h2{
+font-weight: 700;
+color: pink;
+font-family: 'Roboto';
+font-size: 50px;
+text-align: center;
+
+}
+
+h3{
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+ p{
+    font-family: 'Overpass';
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+ }
+
+
+.banner{
+    color: white;
+    padding: 150px 0;
+    margin: 0px;
+    background-image: url('images/banner_floorfillers.jpeg');
+    background-position: center;
+    object-fit: center;
+    background-size:contain;
+    text-align: center;
+   
+}
+
+.banner p {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.btn-blue {
+    background-color: #ff5500;
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight:600;
+    color: white;
+    font-family: 'Roboto';
+
+}
+
+.container {
+    width: 900px;
+    margin: 50px auto;
+}
+
+.card-white{
+    background-color: black;
+    box-shadow: 0px 10px 20px #ffc0cb;
+    padding: 10px;
+    margin: 10px auto;
+    height: 350px;
+    width: 250px;
+    object-fit: contain;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    
+}
+
+.img-circle {
+    object-fit: contain;
+    width: 100%;
+    height: 250px;
+    padding-bottom: 0px;
+}
+
+.text-img {
+    text-align: center;
+}
+
+.song{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.img-song {
+    object-fit: contain;
+    width: 100%;
+    height: 250px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.card-song{
+    background-color:black;
+    height: 320px;
+    width: 250px;
+    margin: 10px auto;
+    object-fit: contain;
+    padding: 10px;
+    box-shadow: 0px 10px 20px pink;
+}
+
+.titre_song{
+    margin: 30px;
+    text-align: center;
+    width: 100%;
+    color: orange;
+    
+}
+
+.video{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 0px 10px 20px pink;
+    text-align: center;
+}
+
+.news {
+    background-color:pink;
+    padding-bottom: 25px;
+}
+
+.card-news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    margin: 15px ;
+}
+
+.textnews {
+    color:pink;
+    margin: 20px;
+}
+
+.news1{
+    width: 450px;
+    height: 550px;
+    margin: 2px auto;
+    object-fit: contain;
+    background-color:black;
+    text-align: center;
+    box-shadow: 0px 10px 20px black;
+    padding: 20px;
+    padding-bottom: 0px;
+    transition: transform .2s;
+}
+
+.news1:hover {
+
+    background-color: #6ECB63;
+    box-shadow: 0px 10px 20px black;
+    box-sizing: inherit;
+    transform: scale(1.1);
+}
+
+
+.news-circl{
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+    text-align: center;
+    margin: 5px;
+}
+
+#newstitle{
+    color: black;
+    margin: 15px;
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+#imgfooter{
+    width: 150px;
+    height: auto;
+    margin-top: 5px;
+}
+
+.inline li{
+    display: inline;
+}
+
+.li {
+    font-size: 25px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+    width: 100px;
+}
+
+#fb{
+    background-color: #4867aa;
+    padding:5px;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#insta{
+    background-color: #d42c6f;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#sound{
+    background-color: #ff5500;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+a{
+    margin: 10px;
+}
+
+
+.mail{
+    margin: 1px;
+    height: 5px;
+    padding: 10px;
+
+}
+
+nav ul
+{
+    list-style-type:none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 25px;
+    font-size: 20px;
+    color: pink;
+    text-decoration: none;
+}
+
+header{
+    background: url('images/separateur.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#titrelogo{
+    width: 20px;
+}
+
+#floor{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+
+a:link 
+{ 
+ text-decoration:none;
+ color: pink; 
+ 
+
+} 
+
+.link { color: pink; } 
+.link:hover { color: #6ECB63 } 
+
+@media (max-width:960px) {
+
+    .container{
+        width: 700px;
+    }
+
+    .cards{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    .song{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-news {
+        grid-template-columns: 1fr;
+    }
+
+    .banner{
+        background-position: center;
+        text-align: center;
+        background-size: auto;
+    }
+
+    nav ul {
+        width: auto;
+    }
+
+    .video{
+        width: auto;
+        height: auto;
+       
+    }
+
+    #media {
+        width:700;
+        height:393,75;
+    }
+}
+
+@media (max-width:480px) {
+
+    .container{
+        width: 400px;
+        text-align: center;
+    }
+
+    .cards{
+        grid-template-columns: 1fr;
+        
+    }
+
+    .song{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-news {
+        grid-template-columns: 1fr;
+    }
+
+    .banner{
+        background-position: center;
+        text-align: center;
+        background-size: auto;
+    }
+
+    nav ul {
+        width: auto;
+    }
+
+    .video{
+        width: auto;
+        height: auto;
+       
+    }
+
+    #media {
+        width:700;
+        height:393,75;
+    }
+}
